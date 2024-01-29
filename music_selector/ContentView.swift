@@ -11,10 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Listen >:)")
-            Spacer()
-            Text("|")
-            Text("v")
-            Spacer()
+            Image(systemName: "arrowshape.right.fill").rotationEffect(.degrees(90))
             Button(action: {
                 true
                 }, label: {
