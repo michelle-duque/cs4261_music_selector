@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Listen >:)")
+            Text("Hello there!")
             Image(systemName: "arrowshape.right.fill").rotationEffect(.degrees(90))
             Button(action: {
                 

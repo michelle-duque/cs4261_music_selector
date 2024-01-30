@@ -30,14 +30,15 @@ struct SignupView: View {
 
     var body: some View {
     VStack {
-        Image("cool_signup_image")
+        Image("my_true_form")
         .resizable()
-        .aspectRatio(contentMode: .fit)
-        .frame(minHeight: 300, maxHeight: 400)
+        .aspectRatio(contentMode: .fill)
+        .frame(maxWidth: 400, minHeight: 100)
         
         Text("Sign up")
         .font(.largeTitle)
         .fontWeight(.bold)
+        .foregroundColor(Color.white)
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(4)
 
@@ -53,7 +54,7 @@ struct SignupView: View {
           }
     }
     .padding()
-    .background(Color.gray.opacity(0.1))
+    .background(Color.white)
     .cornerRadius(10)
 
     HStack {
@@ -66,7 +67,7 @@ struct SignupView: View {
             }
     }
     .padding()
-    .background(Color.gray.opacity(0.1))
+    .background(Color.white)
     .cornerRadius(10)
 
     HStack {
@@ -79,7 +80,7 @@ struct SignupView: View {
           }
     }
     .padding()
-    .background(Color.gray.opacity(0.1))
+    .background(Color.white)
     .cornerRadius(10)
     
 
@@ -94,8 +95,10 @@ struct SignupView: View {
     Button(action: signUpWithEmailPassword) {
         if viewModel.authenticationState != .authenticating {
             Text("Sign up")
-                .padding(.vertical, 8)
                 .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.white)
+                .cornerRadius(10)
         }
         else {
             ProgressView()
@@ -116,9 +119,11 @@ struct SignupView: View {
                 .foregroundColor(.blue)
         }
     }
+    .foregroundColor(Color.white)
     .padding()
     }
     .padding()
+    .background(Color.black)
     }
 }
 

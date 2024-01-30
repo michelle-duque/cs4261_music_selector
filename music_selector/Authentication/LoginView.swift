@@ -30,15 +30,16 @@ struct LoginView: View {
     var body: some View {
         
     VStack {
-        Image("cool_login_image")
+        Image("spacing_out_imsocool")
             .resizable()
-            .aspectRatio(contentMode: .fit)
-            .frame(minHeight: 300, maxHeight: 400)
+            .aspectRatio(contentMode: .fill)
+            .frame(maxWidth: 400, minHeight: 100)
 
         Text("Log In")
             .font(.largeTitle)
             .fontWeight(.bold)
             .frame(maxWidth: .infinity, alignment: .leading)
+            .foregroundColor(Color.white)
             .padding(4)
 
         HStack {
@@ -53,7 +54,7 @@ struct LoginView: View {
           }
       }
       .padding()
-      .background(Color.gray.opacity(0.1))
+      .background(Color.white)
       .cornerRadius(10)
 
     HStack {
@@ -66,7 +67,7 @@ struct LoginView: View {
           }
     }
     .padding()
-    .background(Color.gray.opacity(0.1))
+    .background(Color.white)
     .cornerRadius(10)
     .padding(.bottom, 8)
 
@@ -81,8 +82,10 @@ struct LoginView: View {
     Button(action: signInWithEmailPassword) {
         if viewModel.authenticationState != .authenticating {
           Text("Login")
-            .padding(.vertical, 8)
             .frame(maxWidth: .infinity)
+            .padding()
+            .background(Color.white)
+            .cornerRadius(10)
         }
         else {
             ProgressView()
@@ -103,9 +106,11 @@ struct LoginView: View {
         }
         Text("for free :)")
     }
+    .foregroundColor(Color.white)
     .padding()
     }
     .padding()
+    .background(Color.black)
     }
 }
 

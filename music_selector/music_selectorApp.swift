@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
@@ -27,7 +28,33 @@ struct music_selectorApp: App {
     
     var body: some Scene {
         WindowGroup {
-                ContentView()
+            NavigationStack {
+                AuthenticatedView {
+                    ZStack {
+                        Image("opening_image")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(maxWidth: 400, minHeight: 100)
+
+                        VStack {
+                            VStack {
+                                Text("Is it the full moon?")
+                                    .font(.title)
+                                    .fontWeight(.bold)
+                                    
+                                Text("(You need to be logged in to use this app.)")
+                            }
+                            .padding()
+                            .background(Color.white)
+                            .cornerRadius(10)
+                        }
+                    }
+                    
+                } content: {
+                    ContentView()
+                    Spacer()
+                }
+            }
         }
     }
 }
