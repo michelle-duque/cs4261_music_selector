@@ -97,8 +97,6 @@ struct SignupView: View {
             Text("Sign up")
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(Color.white)
-                .cornerRadius(10)
         }
         else {
             ProgressView()
@@ -110,6 +108,7 @@ struct SignupView: View {
     .disabled(!viewModel.isValid)
     .frame(maxWidth: .infinity)
     .buttonStyle(.borderedProminent)
+    .padding()
 
     HStack {
         Text("Already have an account?")

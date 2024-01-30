@@ -84,8 +84,7 @@ struct LoginView: View {
           Text("Login")
             .frame(maxWidth: .infinity)
             .padding()
-            .background(Color.white)
-            .cornerRadius(10)
+            
         }
         else {
             ProgressView()
@@ -119,7 +118,7 @@ struct LoginView_Previews: PreviewProvider {
         Group {
             LoginView()
             LoginView()
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(.light)
         }
         .environmentObject(AuthenticationViewModel())
     }

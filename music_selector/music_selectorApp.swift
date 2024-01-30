@@ -16,7 +16,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
     FirebaseApp.configure()
-    Auth.auth().useEmulator(withHost: "localhost", port: 9099)
+//    Auth.auth().useEmulator(withHost: "localhost", port: 9099)
     return true
   }
 }
@@ -41,8 +41,10 @@ struct music_selectorApp: App {
                                 Text("Is it the full moon?")
                                     .font(.title)
                                     .fontWeight(.bold)
+                                    .foregroundColor(Color.black)
                                     
                                 Text("(You need to be logged in to use this app.)")
+                                    .foregroundColor(Color.black)
                             }
                             .padding()
                             .background(Color.white)

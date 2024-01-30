@@ -12,11 +12,6 @@
 		B94D33862B6884FA000A6FF9 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33852B6884FA000A6FF9 /* AuthenticationView.swift */; };
 		B94D33882B6896DA000A6FF9 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33872B6896DA000A6FF9 /* AuthenticatedView.swift */; };
 		B94D338A2B6897B2000A6FF9 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33892B6897B2000A6FF9 /* UserProfileView.swift */; };
-		B94D338F2B68A5A0000A6FF9 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D338E2B68A5A0000A6FF9 /* SpotifyiOS.framework */; };
-		B94D33962B68C80C000A6FF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94D33952B68C80C000A6FF9 /* Info.plist */; };
-		B94D33982B68C94C000A6FF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33972B68C94C000A6FF9 /* Constants.swift */; };
-		B94D339A2B68CB66000A6FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33992B68CB66000A6FF9 /* ViewController.swift */; };
-		B94D339E2B68CBFF000A6FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D339D2B68CBFF000A6FF9 /* SceneDelegate.swift */; };
 		B9C369C52B675C5A0059AD66 /* music_selectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */; };
 		B9C369C72B675C5A0059AD66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369C62B675C5A0059AD66 /* ContentView.swift */; };
 		B9C369C92B675C5B0059AD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C369C82B675C5B0059AD66 /* Assets.xcassets */; };
@@ -38,12 +33,7 @@
 		B94D33852B6884FA000A6FF9 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		B94D33872B6896DA000A6FF9 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
 		B94D33892B6897B2000A6FF9 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
-		B94D338E2B68A5A0000A6FF9 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../spotify_sdk/ios-sdk/SpotifyiOS.framework"; sourceTree = "<group>"; };
-		B94D33902B68A626000A6FF9 /* music_selector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "music_selector-Bridging-Header.h"; sourceTree = "<group>"; };
-		B94D33952B68C80C000A6FF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B94D33972B68C94C000A6FF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B94D33992B68CB66000A6FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B94D339D2B68CBFF000A6FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B94D33A82B68DED3000A6FF9 /* music_selector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "music_selector-Bridging-Header.h"; sourceTree = "<group>"; };
 		B9C369C12B675C5A0059AD66 /* music_selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = music_selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_selectorApp.swift; sourceTree = "<group>"; };
 		B9C369C62B675C5A0059AD66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,7 +49,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C36A002B676B270059AD66 /* FirebaseDatabaseSwift in Frameworks */,
-				B94D338F2B68A5A0000A6FF9 /* SpotifyiOS.framework in Frameworks */,
 				B9C369FA2B676B270059AD66 /* FirebaseAuth in Frameworks */,
 				B9C36A042B676B270059AD66 /* FirebaseFirestore in Frameworks */,
 				B9C369F62B676B270059AD66 /* FirebaseAnalyticsSwift in Frameworks */,
@@ -72,14 +61,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B94D339B2B68CB6E000A6FF9 /* SpotifySDK */ = {
+		B94D33AA2B68FF00000A6FF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B94D33972B68C94C000A6FF9 /* Constants.swift */,
-				B94D33992B68CB66000A6FF9 /* ViewController.swift */,
-				B94D339D2B68CBFF000A6FF9 /* SceneDelegate.swift */,
 			);
-			path = SpotifySDK;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B9C369B82B675C5A0059AD66 = {
@@ -87,6 +73,7 @@
 			children = (
 				B9C369C32B675C5A0059AD66 /* music_selector */,
 				B9C369C22B675C5A0059AD66 /* Products */,
+				B94D33AA2B68FF00000A6FF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +91,10 @@
 				B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */,
 				B9C369C62B675C5A0059AD66 /* ContentView.swift */,
 				B9C36A242B6830FA0059AD66 /* Authentication */,
-				B94D339B2B68CB6E000A6FF9 /* SpotifySDK */,
 				B9C369C82B675C5B0059AD66 /* Assets.xcassets */,
 				B9C369EE2B6769990059AD66 /* GoogleService-Info.plist */,
-				B94D33952B68C80C000A6FF9 /* Info.plist */,
-				B94D338E2B68A5A0000A6FF9 /* SpotifyiOS.framework */,
+				B94D33A82B68DED3000A6FF9 /* music_selector-Bridging-Header.h */,
 				B9C369CA2B675C5B0059AD66 /* Preview Content */,
-				B94D33902B68A626000A6FF9 /* music_selector-Bridging-Header.h */,
 			);
 			path = music_selector;
 			sourceTree = "<group>";
@@ -207,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94D33962B68C80C000A6FF9 /* Info.plist in Resources */,
 				B9C369CC2B675C5B0059AD66 /* Preview Assets.xcassets in Resources */,
 				B9C369C92B675C5B0059AD66 /* Assets.xcassets in Resources */,
 				B9C369EF2B6769990059AD66 /* GoogleService-Info.plist in Resources */,
@@ -221,17 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94D339A2B68CB66000A6FF9 /* ViewController.swift in Sources */,
 				B94D33842B687E65000A6FF9 /* SignupView.swift in Sources */,
 				B9C369C72B675C5A0059AD66 /* ContentView.swift in Sources */,
 				B94D33862B6884FA000A6FF9 /* AuthenticationView.swift in Sources */,
 				B94D338A2B6897B2000A6FF9 /* UserProfileView.swift in Sources */,
 				B94D33882B6896DA000A6FF9 /* AuthenticatedView.swift in Sources */,
 				B94D33822B6847ED000A6FF9 /* AuthenticationViewModel.swift in Sources */,
-				B94D339E2B68CBFF000A6FF9 /* SceneDelegate.swift in Sources */,
 				B9C369C52B675C5A0059AD66 /* music_selectorApp.swift in Sources */,
 				B9C36A262B6831A00059AD66 /* LoginView.swift in Sources */,
-				B94D33982B68C94C000A6FF9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,9 +347,10 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
 					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk/SpotifyiOS.xcframework/ios-arm64",
 				);
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = music_selector/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -406,9 +387,10 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
 					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk/SpotifyiOS.xcframework/ios-arm64",
 				);
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = music_selector/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
