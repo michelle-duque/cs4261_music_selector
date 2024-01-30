@@ -33,7 +33,6 @@
 		B94D33852B6884FA000A6FF9 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		B94D33872B6896DA000A6FF9 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
 		B94D33892B6897B2000A6FF9 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
-		B94D33A82B68DED3000A6FF9 /* music_selector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "music_selector-Bridging-Header.h"; sourceTree = "<group>"; };
 		B9C369C12B675C5A0059AD66 /* music_selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = music_selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_selectorApp.swift; sourceTree = "<group>"; };
 		B9C369C62B675C5A0059AD66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,7 +92,6 @@
 				B9C36A242B6830FA0059AD66 /* Authentication */,
 				B9C369C82B675C5B0059AD66 /* Assets.xcassets */,
 				B9C369EE2B6769990059AD66 /* GoogleService-Info.plist */,
-				B94D33A82B68DED3000A6FF9 /* music_selector-Bridging-Header.h */,
 				B9C369CA2B675C5B0059AD66 /* Preview Content */,
 			);
 			path = music_selector;

@@ -75,7 +75,8 @@ struct AuthenticatedView_Previews: PreviewProvider {
         AuthenticatedView {
             Text("You're signed in.")
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                .background(.yellow)
+                .foregroundColor(.white)
+                .background(.black)
         }
     }
 }
