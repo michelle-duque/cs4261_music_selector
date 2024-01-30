@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("Listen >:)")
             Image(systemName: "arrowshape.right.fill").rotationEffect(.degrees(90))
             Button(action: {
-                true
+                
                 }, label: {
                     Image(systemName: "music.note")
             })

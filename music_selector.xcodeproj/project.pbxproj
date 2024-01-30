@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B94D337E2B683FD9000A6FF9 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D337D2B683FD9000A6FF9 /* SignInEmailView.swift */; };
 		B94D33822B6847ED000A6FF9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33812B6847ED000A6FF9 /* AuthenticationViewModel.swift */; };
+		B94D33842B687E65000A6FF9 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33832B687E65000A6FF9 /* SignupView.swift */; };
+		B94D33862B6884FA000A6FF9 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33852B6884FA000A6FF9 /* AuthenticationView.swift */; };
+		B94D33882B6896DA000A6FF9 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33872B6896DA000A6FF9 /* AuthenticatedView.swift */; };
+		B94D338A2B6897B2000A6FF9 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33892B6897B2000A6FF9 /* UserProfileView.swift */; };
+		B94D338F2B68A5A0000A6FF9 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D338E2B68A5A0000A6FF9 /* SpotifyiOS.framework */; };
+		B94D33962B68C80C000A6FF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94D33952B68C80C000A6FF9 /* Info.plist */; };
+		B94D33982B68C94C000A6FF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33972B68C94C000A6FF9 /* Constants.swift */; };
+		B94D339A2B68CB66000A6FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D33992B68CB66000A6FF9 /* ViewController.swift */; };
+		B94D339E2B68CBFF000A6FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D339D2B68CBFF000A6FF9 /* SceneDelegate.swift */; };
 		B9C369C52B675C5A0059AD66 /* music_selectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */; };
 		B9C369C72B675C5A0059AD66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369C62B675C5A0059AD66 /* ContentView.swift */; };
 		B9C369C92B675C5B0059AD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C369C82B675C5B0059AD66 /* Assets.xcassets */; };
 		B9C369CC2B675C5B0059AD66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C369CB2B675C5B0059AD66 /* Preview Assets.xcassets */; };
-		B9C369D62B675C5B0059AD66 /* music_selectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369D52B675C5B0059AD66 /* music_selectorTests.swift */; };
-		B9C369E02B675C5C0059AD66 /* music_selectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369DF2B675C5C0059AD66 /* music_selectorUITests.swift */; };
-		B9C369E22B675C5C0059AD66 /* music_selectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C369E12B675C5C0059AD66 /* music_selectorUITestsLaunchTests.swift */; };
 		B9C369EF2B6769990059AD66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9C369EE2B6769990059AD66 /* GoogleService-Info.plist */; };
 		B9C369F22B676B270059AD66 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B9C369F12B676B270059AD66 /* FirebaseAnalytics */; };
 		B9C369F62B676B270059AD66 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B9C369F52B676B270059AD66 /* FirebaseAnalyticsSwift */; };
@@ -27,36 +32,23 @@
 		B9C36A262B6831A00059AD66 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C36A252B6831A00059AD66 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B9C369D22B675C5B0059AD66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9C369B92B675C5A0059AD66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9C369C02B675C5A0059AD66;
-			remoteInfo = music_selector;
-		};
-		B9C369DC2B675C5C0059AD66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9C369B92B675C5A0059AD66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9C369C02B675C5A0059AD66;
-			remoteInfo = music_selector;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B94D337D2B683FD9000A6FF9 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		B94D33812B6847ED000A6FF9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B94D33832B687E65000A6FF9 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		B94D33852B6884FA000A6FF9 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		B94D33872B6896DA000A6FF9 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
+		B94D33892B6897B2000A6FF9 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		B94D338E2B68A5A0000A6FF9 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../spotify_sdk/ios-sdk/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		B94D33902B68A626000A6FF9 /* music_selector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "music_selector-Bridging-Header.h"; sourceTree = "<group>"; };
+		B94D33952B68C80C000A6FF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94D33972B68C94C000A6FF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B94D33992B68CB66000A6FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B94D339D2B68CBFF000A6FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B9C369C12B675C5A0059AD66 /* music_selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = music_selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_selectorApp.swift; sourceTree = "<group>"; };
 		B9C369C62B675C5A0059AD66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9C369C82B675C5B0059AD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C369CB2B675C5B0059AD66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B9C369D12B675C5B0059AD66 /* music_selectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = music_selectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9C369D52B675C5B0059AD66 /* music_selectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_selectorTests.swift; sourceTree = "<group>"; };
-		B9C369DB2B675C5C0059AD66 /* music_selectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = music_selectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9C369DF2B675C5C0059AD66 /* music_selectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_selectorUITests.swift; sourceTree = "<group>"; };
-		B9C369E12B675C5C0059AD66 /* music_selectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_selectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B9C369EE2B6769990059AD66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9C36A252B6831A00059AD66 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C36A002B676B270059AD66 /* FirebaseDatabaseSwift in Frameworks */,
+				B94D338F2B68A5A0000A6FF9 /* SpotifyiOS.framework in Frameworks */,
 				B9C369FA2B676B270059AD66 /* FirebaseAuth in Frameworks */,
 				B9C36A042B676B270059AD66 /* FirebaseFirestore in Frameworks */,
 				B9C369F62B676B270059AD66 /* FirebaseAnalyticsSwift in Frameworks */,
@@ -76,29 +69,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9C369CE2B675C5B0059AD66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9C369D82B675C5C0059AD66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B94D339B2B68CB6E000A6FF9 /* SpotifySDK */ = {
+			isa = PBXGroup;
+			children = (
+				B94D33972B68C94C000A6FF9 /* Constants.swift */,
+				B94D33992B68CB66000A6FF9 /* ViewController.swift */,
+				B94D339D2B68CBFF000A6FF9 /* SceneDelegate.swift */,
+			);
+			path = SpotifySDK;
+			sourceTree = "<group>";
+		};
 		B9C369B82B675C5A0059AD66 = {
 			isa = PBXGroup;
 			children = (
 				B9C369C32B675C5A0059AD66 /* music_selector */,
-				B9C369D42B675C5B0059AD66 /* music_selectorTests */,
-				B9C369DE2B675C5C0059AD66 /* music_selectorUITests */,
 				B9C369C22B675C5A0059AD66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				B9C369C12B675C5A0059AD66 /* music_selector.app */,
-				B9C369D12B675C5B0059AD66 /* music_selectorTests.xctest */,
-				B9C369DB2B675C5C0059AD66 /* music_selectorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,9 +104,13 @@
 				B9C369C42B675C5A0059AD66 /* music_selectorApp.swift */,
 				B9C369C62B675C5A0059AD66 /* ContentView.swift */,
 				B9C36A242B6830FA0059AD66 /* Authentication */,
+				B94D339B2B68CB6E000A6FF9 /* SpotifySDK */,
 				B9C369C82B675C5B0059AD66 /* Assets.xcassets */,
 				B9C369EE2B6769990059AD66 /* GoogleService-Info.plist */,
+				B94D33952B68C80C000A6FF9 /* Info.plist */,
+				B94D338E2B68A5A0000A6FF9 /* SpotifyiOS.framework */,
 				B9C369CA2B675C5B0059AD66 /* Preview Content */,
+				B94D33902B68A626000A6FF9 /* music_selector-Bridging-Header.h */,
 			);
 			path = music_selector;
 			sourceTree = "<group>";
@@ -134,29 +123,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B9C369D42B675C5B0059AD66 /* music_selectorTests */ = {
-			isa = PBXGroup;
-			children = (
-				B9C369D52B675C5B0059AD66 /* music_selectorTests.swift */,
-			);
-			path = music_selectorTests;
-			sourceTree = "<group>";
-		};
-		B9C369DE2B675C5C0059AD66 /* music_selectorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B9C369DF2B675C5C0059AD66 /* music_selectorUITests.swift */,
-				B9C369E12B675C5C0059AD66 /* music_selectorUITestsLaunchTests.swift */,
-			);
-			path = music_selectorUITests;
-			sourceTree = "<group>";
-		};
 		B9C36A242B6830FA0059AD66 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				B94D33852B6884FA000A6FF9 /* AuthenticationView.swift */,
 				B9C36A252B6831A00059AD66 /* LoginView.swift */,
-				B94D337D2B683FD9000A6FF9 /* SignInEmailView.swift */,
+				B94D33832B687E65000A6FF9 /* SignupView.swift */,
 				B94D33812B6847ED000A6FF9 /* AuthenticationViewModel.swift */,
+				B94D33872B6896DA000A6FF9 /* AuthenticatedView.swift */,
+				B94D33892B6897B2000A6FF9 /* UserProfileView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -190,42 +165,6 @@
 			productReference = B9C369C12B675C5A0059AD66 /* music_selector.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9C369D02B675C5B0059AD66 /* music_selectorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9C369E82B675C5C0059AD66 /* Build configuration list for PBXNativeTarget "music_selectorTests" */;
-			buildPhases = (
-				B9C369CD2B675C5B0059AD66 /* Sources */,
-				B9C369CE2B675C5B0059AD66 /* Frameworks */,
-				B9C369CF2B675C5B0059AD66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9C369D32B675C5B0059AD66 /* PBXTargetDependency */,
-			);
-			name = music_selectorTests;
-			productName = music_selectorTests;
-			productReference = B9C369D12B675C5B0059AD66 /* music_selectorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B9C369DA2B675C5C0059AD66 /* music_selectorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9C369EB2B675C5C0059AD66 /* Build configuration list for PBXNativeTarget "music_selectorUITests" */;
-			buildPhases = (
-				B9C369D72B675C5C0059AD66 /* Sources */,
-				B9C369D82B675C5C0059AD66 /* Frameworks */,
-				B9C369D92B675C5C0059AD66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9C369DD2B675C5C0059AD66 /* PBXTargetDependency */,
-			);
-			name = music_selectorUITests;
-			productName = music_selectorUITests;
-			productReference = B9C369DB2B675C5C0059AD66 /* music_selectorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,14 +177,7 @@
 				TargetAttributes = {
 					B9C369C02B675C5A0059AD66 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					B9C369D02B675C5B0059AD66 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B9C369C02B675C5A0059AD66;
-					};
-					B9C369DA2B675C5C0059AD66 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B9C369C02B675C5A0059AD66;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -266,8 +198,6 @@
 			projectRoot = "";
 			targets = (
 				B9C369C02B675C5A0059AD66 /* music_selector */,
-				B9C369D02B675C5B0059AD66 /* music_selectorTests */,
-				B9C369DA2B675C5C0059AD66 /* music_selectorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,23 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94D33962B68C80C000A6FF9 /* Info.plist in Resources */,
 				B9C369CC2B675C5B0059AD66 /* Preview Assets.xcassets in Resources */,
 				B9C369C92B675C5B0059AD66 /* Assets.xcassets in Resources */,
 				B9C369EF2B6769990059AD66 /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9C369CF2B675C5B0059AD66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9C369D92B675C5C0059AD66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,45 +221,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94D339A2B68CB66000A6FF9 /* ViewController.swift in Sources */,
+				B94D33842B687E65000A6FF9 /* SignupView.swift in Sources */,
 				B9C369C72B675C5A0059AD66 /* ContentView.swift in Sources */,
+				B94D33862B6884FA000A6FF9 /* AuthenticationView.swift in Sources */,
+				B94D338A2B6897B2000A6FF9 /* UserProfileView.swift in Sources */,
+				B94D33882B6896DA000A6FF9 /* AuthenticatedView.swift in Sources */,
 				B94D33822B6847ED000A6FF9 /* AuthenticationViewModel.swift in Sources */,
+				B94D339E2B68CBFF000A6FF9 /* SceneDelegate.swift in Sources */,
 				B9C369C52B675C5A0059AD66 /* music_selectorApp.swift in Sources */,
 				B9C36A262B6831A00059AD66 /* LoginView.swift in Sources */,
-				B94D337E2B683FD9000A6FF9 /* SignInEmailView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9C369CD2B675C5B0059AD66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9C369D62B675C5B0059AD66 /* music_selectorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9C369D72B675C5C0059AD66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9C369E02B675C5C0059AD66 /* music_selectorUITests.swift in Sources */,
-				B9C369E22B675C5C0059AD66 /* music_selectorUITestsLaunchTests.swift in Sources */,
+				B94D33982B68C94C000A6FF9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B9C369D32B675C5B0059AD66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9C369C02B675C5A0059AD66 /* music_selector */;
-			targetProxy = B9C369D22B675C5B0059AD66 /* PBXContainerItemProxy */;
-		};
-		B9C369DD2B675C5C0059AD66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9C369C02B675C5A0059AD66 /* music_selector */;
-			targetProxy = B9C369DC2B675C5C0059AD66 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B9C369E32B675C5C0059AD66 /* Debug */ = {
@@ -464,12 +357,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"music_selector/Preview Content\"";
 				DEVELOPMENT_TEAM = 7CPTTH7Z5N;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = music_selector/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,9 +380,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michelleduque.music-selector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "music_selector/music_selector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -493,12 +396,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"music_selector/Preview Content\"";
 				DEVELOPMENT_TEAM = 7CPTTH7Z5N;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/School\\ 2023-2024/spring_2024/cs_4261/spotify_sdk/ios-sdk",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = music_selector/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -509,83 +419,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michelleduque.music-selector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "music_selector/music_selector-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B9C369E92B675C5C0059AD66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.michelle.music-selectorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/music_selector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/music_selector";
-			};
-			name = Debug;
-		};
-		B9C369EA2B675C5C0059AD66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.michelle.music-selectorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/music_selector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/music_selector";
-			};
-			name = Release;
-		};
-		B9C369EC2B675C5C0059AD66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.michelle.music-selectorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = music_selector;
-			};
-			name = Debug;
-		};
-		B9C369ED2B675C5C0059AD66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.michelle.music-selectorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = music_selector;
 			};
 			name = Release;
 		};
@@ -606,24 +446,6 @@
 			buildConfigurations = (
 				B9C369E62B675C5C0059AD66 /* Debug */,
 				B9C369E72B675C5C0059AD66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9C369E82B675C5C0059AD66 /* Build configuration list for PBXNativeTarget "music_selectorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9C369E92B675C5C0059AD66 /* Debug */,
-				B9C369EA2B675C5C0059AD66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9C369EB2B675C5C0059AD66 /* Build configuration list for PBXNativeTarget "music_selectorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9C369EC2B675C5C0059AD66 /* Debug */,
-				B9C369ED2B675C5C0059AD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
